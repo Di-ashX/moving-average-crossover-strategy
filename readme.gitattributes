@@ -1,0 +1,9 @@
+1. This is a financial trading strategy that uses the concept of moving averages.
+2. the strategy use the data from 4 organisations(aapl,IBM,MSFT,GGOG).
+3. there are 2 windows of 40(short) and 252 days(long)
+4. buy signal = short moving avg > long moving avg
+5. sell signal = short moving avg < long moving avg 
+
+6. backtesting is wit the help of pandas library
+7. sharpe ratio of the strategy = 0.7268
+8. CAGR = 0.3823
